@@ -1,0 +1,716 @@
+{
+  "personal": {
+    "name": "Tejas Jagdale",
+    "role": "Backend Developer & AI Engineer",
+    "shortRole": "Backend & AI Engineer",
+    "tagline": "Architecting resilient distributed systems and autonomous AI agent workflows.",
+    "location": "Pune, India",
+    "email": "tejasjagdale.dev@gmail.com",
+    "github": "https://github.com/tejasjagdale",
+    "linkedin": "https://linkedin.com/in/tejasjagdale",
+    "twitter": "https://twitter.com/tejasjagdale",
+    "resume": "/resume/Tejas_Jagdale_Resume.pdf",
+    "status": "BUILDING",
+    "availability": "Available for High-Impact Roles & Consulting",
+    "experienceYears": "3+",
+    "stats": [
+      { "label": "Production APIs", "value": "20+" },
+      { "label": "AI Agents Deployed", "value": "15+" },
+      { "label": "Avg API Latency", "value": "<45ms" },
+      { "label": "System Uptime", "value": "99.9%" }
+    ]
+  },
+
+  "hero": {
+    "badge": "BACKEND DEVELOPER × AI ENGINEER",
+    "headline": "I BUILD INTELLIGENT BACKEND SYSTEMS.",
+    "subheadline": "Fast APIs. AI agents. Scalable infrastructure. Production systems.",
+    "ctaProjects": "View Systems",
+    "ctaContact": "Contact Me",
+    "ctaResume": "Download Resume",
+    "coreTechNodes": [
+      { "name": "Python", "category": "Language", "desc": "Core language for backend microservices and AI agent engines", "color": "#38bdf8" },
+      { "name": "FastAPI", "category": "Backend", "desc": "High-concurrency asynchronous RESTful API framework", "color": "#00f0ff" },
+      { "name": "PostgreSQL", "category": "Database", "desc": "Relational data store with complex query planning & indexing", "color": "#60a5fa" },
+      { "name": "Redis", "category": "Cache & Queues", "desc": "Sub-millisecond caching, pub/sub messaging and rate limiting", "color": "#f87171" },
+      { "name": "Docker", "category": "DevOps", "desc": "Containerization and reproducible microservice runtimes", "color": "#38bdf8" },
+      { "name": "AWS", "category": "Cloud", "desc": "Cloud infrastructure: ECS, EC2, S3, RDS, and CloudWatch", "color": "#fbbf24" },
+      { "name": "LangGraph", "category": "AI", "desc": "Cyclic state graphs for deterministic multi-agent orchestration", "color": "#a78bfa" },
+      { "name": "LangChain", "category": "AI", "desc": "Composable tooling abstractions for large language models", "color": "#c084fc" },
+      { "name": "React", "category": "Frontend", "desc": "Modern UI library for reactive system dashboards", "color": "#22d3ee" },
+      { "name": "Next.js", "category": "Frontend", "desc": "Full-stack framework powering server-rendered web applications", "color": "#e2e8f0" }
+    ]
+  },
+
+  "about": {
+    "sectionTag": "01 // SYSTEM OVERVIEW",
+    "heading": "WHO IS BEHIND THE SYSTEM?",
+    "intro": "I'm Tejas Jagdale, a backend developer focused on building reliable APIs, AI-powered systems, and scalable backend infrastructure.",
+    "bio": [
+      "Operating at the intersection of robust backend engineering and applied artificial intelligence, I engineer systems that are both deterministic and capable of autonomous reasoning.",
+      "My work centers on designing event-driven microservices, implementing high-throughput asynchronous pipelines, orchestrating multi-agent LLM workflows with LangGraph, and deploying resilient infrastructure on AWS and Docker.",
+      "I treat software engineering as a craft of precision: minimizing p99 latencies, ensuring fault tolerance across distributed boundaries, and delivering clean, observable systems that scale cleanly under production pressure."
+    ],
+    "identityCard": {
+      "identifier": "DEV_SYS_018",
+      "name": "TEJAS JAGDALE",
+      "role": "BACKEND DEVELOPER & AI ENGINEER",
+      "status": "BUILDING",
+      "location": "PUNE, INDIA",
+      "clearance": "PRODUCTION LEVEL",
+      "runtime": "PYTHON 3.12 / FASTAPI / DOCKER / AWS",
+      "architecture": "DISTRIBUTED MICROSERVICES & MULTI-AGENT SYSTEMS"
+    },
+    "highlights": [
+      {
+        "title": "Scalable Microservices",
+        "desc": "Built async APIs with FastAPI & PostgreSQL handling thousands of requests per second."
+      },
+      {
+        "title": "Agentic AI Architectures",
+        "desc": "Designed cyclical state-graph multi-agent systems using LangGraph and tool calling."
+      },
+      {
+        "title": "Distributed Caching & Queues",
+        "desc": "Engineered low-latency caching hierarchies and Celery/Redis background task queues."
+      },
+      {
+        "title": "Production DevOps",
+        "desc": "Automated Docker containerization, CI/CD pipelines, and cloud telemetry monitoring."
+      }
+    ]
+  },
+
+  "skills": {
+    "sectionTag": "02 // TECH STACK",
+    "heading": "THE STACK",
+    "subheading": "Spatial technology ecosystem organized by systems domain.",
+    "categories": [
+      {
+        "id": "backend",
+        "name": "Backend & Core",
+        "color": "#00f0ff",
+        "description": "High-performance asynchronous runtimes, ORMs, and relational databases",
+        "items": [
+          { "name": "Python", "context": "Primary runtime for concurrent backends, data pipelines, and AI systems", "related": ["FastAPI", "SQLAlchemy", "Asyncio"] },
+          { "name": "FastAPI", "context": "Pydantic-typed asynchronous REST endpoints with OpenAPI validation", "related": ["Python", "Uvicorn", "Swagger"] },
+          { "name": "SQLAlchemy", "context": "Async database session management, connection pooling, and migrations with Alembic", "related": ["PostgreSQL", "Python"] },
+          { "name": "PostgreSQL", "context": "Relational data design, partial indexes, CTEs, and full-text search", "related": ["SQLAlchemy", "Redis"] },
+          { "name": "Celery", "context": "Distributed task queues for non-blocking asynchronous workload processing", "related": ["Redis", "Python"] },
+          { "name": "REST & gRPC", "context": "Contract-first API design and cross-service protocol buffer communications", "related": ["FastAPI", "Microservices"] }
+        ]
+      },
+      {
+        "id": "ai",
+        "name": "AI & Agent Systems",
+        "color": "#8b5cf6",
+        "description": "Autonomous agent graphs, semantic search, and prompt orchestrations",
+        "items": [
+          { "name": "LangGraph", "context": "Stateful multi-actor agent orchestration with cyclic loop execution and human-in-the-loop", "related": ["LangChain", "Python", "AI Agents"] },
+          { "name": "LangChain", "context": "Dynamic chain compositions, document loaders, and semantic output parsers", "related": ["LangGraph", "OpenAI SDK"] },
+          { "name": "OpenAI SDK", "context": "Integration with GPT models, structured function calling, and streaming completions", "related": ["LangChain", "Prompt Engineering"] },
+          { "name": "RAG Systems", "context": "Hybrid retrieval architectures blending dense vector embeddings and BM25 sparse search", "related": ["Vector DBs", "LangChain"] },
+          { "name": "AI Agents", "context": "Tool-augmented autonomous problem solvers with validation and reflection loops", "related": ["LangGraph", "Tools"] },
+          { "name": "Vector Databases", "context": "High-dimensional similarity indexing with ChromaDB and Pinecone", "related": ["RAG", "Embeddings"] }
+        ]
+      },
+      {
+        "id": "infrastructure",
+        "name": "Infrastructure & Cloud",
+        "color": "#38bdf8",
+        "description": "Containerization, cloud orchestration, caching layers, and automated delivery",
+        "items": [
+          { "name": "Docker", "context": "Multi-stage production image builds, volume orchestration, and container security", "related": ["AWS", "CI/CD", "Nginx"] },
+          { "name": "AWS", "context": "Deployment across EC2, S3 asset buckets, RDS instances, and ECS containers", "related": ["Docker", "Linux"] },
+          { "name": "Redis", "context": "In-memory caching layer, distributed locking mechanisms, and pub/sub message brokering", "related": ["FastAPI", "Celery"] },
+          { "name": "Nginx", "context": "Reverse proxying, SSL termination, request load balancing, and rate limiting", "related": ["FastAPI", "Docker"] },
+          { "name": "CI/CD Pipelines", "context": "Automated linting, type-checking, automated unit testing, and zero-downtime deployment", "related": ["GitHub Actions", "Docker"] },
+          { "name": "Linux & Bash", "context": "Production system administration, process isolation, and shell automation scripts", "related": ["Docker", "AWS"] }
+        ]
+      },
+      {
+        "id": "frontend",
+        "name": "Frontend & Dashboards",
+        "color": "#06b6d4",
+        "description": "Interactive developer tooling interfaces and web applications",
+        "items": [
+          { "name": "React", "context": "Component-driven user interfaces for monitoring tools and management dashboards", "related": ["TypeScript", "Next.js"] },
+          { "name": "Next.js", "context": "Server-side rendering, API route proxies, and static asset delivery", "related": ["React", "TypeScript"] },
+          { "name": "TypeScript", "context": "Strict type safety for clean frontend-to-backend API contract parity", "related": ["Next.js", "React"] },
+          { "name": "Tailwind CSS", "context": "Modern utility styling for crisp, futuristic UI command interfaces", "related": ["React", "Design Systems"] }
+        ]
+      }
+    ]
+  },
+
+  "experience": {
+    "sectionTag": "03 // CAREER TIMELINE",
+    "heading": "ENGINEERING EXPERIENCE",
+    "subheading": "Chronological journey of designing systems and production services.",
+    "timeline": [
+      {
+        "period": "2024 — Present",
+        "company": "NeuralScale Systems",
+        "role": "Backend & AI Systems Engineer",
+        "location": "Pune, India",
+        "type": "Full-time",
+        "summary": "Architecting asynchronous backend microservices and deterministic multi-agent LLM systems for enterprise client workflows.",
+        "responsibilities": [
+          "Architected and deployed asynchronous microservices in FastAPI serving 1M+ weekly requests with sub-50ms p95 latency.",
+          "Designed multi-agent cyclical workflows using LangGraph to automate complex multi-step document synthesis and data verification.",
+          "Engineered a hybrid semantic retrieval (RAG) engine combining vector search with PostgreSQL cross-indexing to reduce hallucinations.",
+          "Implemented distributed Redis caching and connection pooling strategies that cut database read pressure by 42%."
+        ],
+        "technologies": ["Python", "FastAPI", "LangGraph", "PostgreSQL", "Redis", "Docker", "AWS", "OpenAI SDK"],
+        "achievements": [
+          "Decreased end-to-end multi-agent workflow turnaround time from 14s to 3.8s using parallel execution and state streaming.",
+          "Maintained 99.95% production uptime across critical microservices."
+        ]
+      },
+      {
+        "period": "2023 — 2024",
+        "company": "CloudForge Tech",
+        "role": "Backend Software Engineer",
+        "location": "Pune, India",
+        "type": "Full-time",
+        "summary": "Developed scalable REST APIs, database schemas, and background job processing pipelines.",
+        "responsibilities": [
+          "Designed normalized relational schemas and Alembic database migration pipelines in PostgreSQL.",
+          "Built distributed background task workers with Celery and Redis to handle batch data processing and report generation.",
+          "Configured Nginx reverse proxy routing, SSL termination, and rate-limiting rules to shield internal microservices.",
+          "Implemented comprehensive automated test suites using PyTest achieving >88% code coverage."
+        ],
+        "technologies": ["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "Redis", "Celery", "Nginx", "Docker"],
+        "achievements": [
+          "Eliminated duplicate background task executions using distributed Redis lock primitives.",
+          "Refactored heavy SQL reporting queries using composite indexes, speeding up query execution by 3.5x."
+        ]
+      },
+      {
+        "period": "2022 — 2023",
+        "company": "DataMatrix Labs",
+        "role": "Software Engineering Intern — Backend & Cloud",
+        "location": "Pune, India",
+        "type": "Internship",
+        "summary": "Assisted in containerizing legacy backend services and building internal engineering utilities.",
+        "responsibilities": [
+          "Migrated manual deployment scripts to containerized Docker workflows and GitHub Actions CI pipelines.",
+          "Developed internal monitoring endpoints and health-check monitors for distributed backend instances.",
+          "Assisted in benchmarking database query throughput under concurrent synthetic loads."
+        ],
+        "technologies": ["Python", "Flask", "Docker", "PostgreSQL", "GitHub Actions", "Linux"],
+        "achievements": [
+          "Reduced new developer onboarding setup time from 2 days to under 20 minutes with containerized compose stacks."
+        ]
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "inframind",
+      "name": "InfraMind",
+      "tagline": "AI-Driven Backend Orchestration Platform",
+      "description": "An autonomous AI orchestration engine that monitors distributed backend microservices, detects anomalies in real-time, and executes self-healing remediation routines through verified LangGraph multi-agent state graphs.",
+      "featured": true,
+      "category": "AI & Distributed Systems",
+      "status": "Production Ready",
+      "github": "https://github.com/tejasjagdale/inframind",
+      "live": "https://inframind-demo.vercel.app",
+      "problem": "Modern distributed microservices generate overwhelming operational telemetry. Traditional alerting triggers static thresholds that often page on-call engineers without root-cause diagnosis or actionable remediation.",
+      "solution": "InfraMind ingests operational logs and telemetry through an async FastAPI gateway, coordinates an autonomous multi-agent hierarchy (Anomaly Detector -> Root Cause Planner -> Tool Executor -> Verifier) via LangGraph, and resolves operational incidents within sandboxed boundaries.",
+      "architectureNodes": [
+        { "id": "client", "label": "Client / Observability Agent", "type": "entry", "desc": "Emits telemetry events, metrics, and incident reports" },
+        { "id": "api", "label": "API Gateway (FastAPI)", "type": "gateway", "desc": "Async event ingestion, token authentication, and rate limiting" },
+        { "id": "orchestrator", "label": "Agent Orchestrator", "type": "orchestrator", "desc": "Evaluates incident severity and delegates to state graph" },
+        { "id": "langgraph", "label": "LangGraph State Graph", "type": "graph", "desc": "Deterministic state cycles with checkpointing & step memory" },
+        { "id": "agents", "label": "Specialized AI Agents", "type": "agents", "desc": "Planner Agent, Diagnostics Agent, and Patch Validator" },
+        { "id": "tools", "label": "Tool Sandbox & Executors", "type": "tools", "desc": "Container restarts, DB query kill, DNS failover, scale commands" },
+        { "id": "redis", "label": "Redis Cache & State Broker", "type": "cache", "desc": "In-memory state snapshots, active locks, and message stream" },
+        { "id": "postgres", "label": "PostgreSQL Audit Store", "type": "storage", "desc": "Immutable operational audit trails, decision logs, and metrics" }
+      ],
+      "technologies": ["Python", "FastAPI", "LangGraph", "LangChain", "Redis", "PostgreSQL", "Docker", "AWS"],
+      "implementation": [
+        "Constructed a cyclical state machine using LangGraph with strict Pydantic schemas validating every intermediate step.",
+        "Implemented Redis distributed locks to prevent split-brain remediation actions across replica workers.",
+        "Enforced an immutable event ledger in PostgreSQL to audit every automated action taken by the AI agent hierarchy.",
+        "Created an async heartbeat monitoring subsystem pinging health check endpoints with automatic circuit breaking."
+      ],
+      "challenges": [
+        "Preventing infinite remediation loops when an upstream dependency is permanently unrecoverable.",
+        "Ensuring LLM agent decisions adhere strictly to safety boundaries without executing unverified system commands.",
+        "Streaming live step-by-step reasoning tokens to developer consoles without delaying backend execution."
+      ],
+      "results": [
+        "Reduced Mean Time to Resolution (MTTR) by 64% in simulated cloud infrastructure incident benchmarks.",
+        "Processed over 50,000 synthetic failure simulations with zero unauthorized state mutations.",
+        "Sub-120ms p95 orchestration step latency across internal graph nodes."
+      ]
+    },
+    {
+      "id": "vectorflow-rag",
+      "name": "VectorFlow-RAG",
+      "tagline": "Hybrid Semantic Knowledge Retrieval Engine",
+      "description": "Production-grade retrieval augmented generation pipeline combining dense embeddings with BM25 sparse search and cross-encoder re-ranking for enterprise documentation.",
+      "featured": false,
+      "category": "AI & Retrieval",
+      "status": "Deployed",
+      "github": "https://github.com/tejasjagdale/vectorflow-rag",
+      "live": "https://vectorflow-demo.vercel.app",
+      "problem": "Standard vector similarity search frequently fails on exact keyword identifiers, version codes, and technical jargon, causing hallucinated answers.",
+      "solution": "Engineered a two-stage hybrid retrieval architecture blending ChromaDB dense vector lookups with BM25 full-text indexing, followed by a BGE cross-encoder re-ranking stage.",
+      "technologies": ["Python", "FastAPI", "ChromaDB", "LangChain", "OpenAI SDK", "Docker"],
+      "implementation": [
+        "Recursive text chunking with semantic markdown awareness and metadata preservation.",
+        "Reciprocal Rank Fusion (RRF) algorithm to balance keyword and semantic score distributions.",
+        "Asynchronous batch embedding generation with local rate-limit token bucket queues."
+      ],
+      "challenges": [
+        "Balancing retrieval recall against latency constraints in real-time query scenarios."
+      ],
+      "results": [
+        "Achieved a 38% improvement in retrieval precision over naive vector-only semantic search.",
+        "Maintained sub-80ms retrieval and re-ranking time for document corpuses of 100k+ tokens."
+      ]
+    },
+    {
+      "id": "rednet",
+      "name": "RedNet",
+      "tagline": "Distributed In-Memory Key-Value & Messaging Broker",
+      "description": "A lightweight distributed in-memory data store supporting Redis protocol wire compatibility, master-replica asynchronous replication, and pub/sub message brokering.",
+      "featured": false,
+      "category": "Distributed Systems",
+      "status": "Open Source",
+      "github": "https://github.com/tejasjagdale/rednet",
+      "live": "https://github.com/tejasjagdale/rednet",
+      "problem": "Understanding distributed storage internals requires building from first principles rather than treating Redis as a black box.",
+      "solution": "Built a non-blocking asynchronous event loop server supporting RESP (Redis Serialization Protocol), in-memory hash indexing, key expiration with active sampling, and snapshotting.",
+      "technologies": ["Python", "Asyncio", "Redis Protocol", "Sockets", "Linux"],
+      "implementation": [
+        "Custom byte-level parser for RESP protocol tokens handling pipelined client requests.",
+        "Sliding expiration manager combining passive expiration on access with probabilistic periodic sweeps.",
+        "Non-blocking append-only log (AOF) persistence engine ensuring durability."
+      ],
+      "challenges": [
+        "Minimizing memory fragmentation while handling rapid key churn and high-frequency writes."
+      ],
+      "results": [
+        "Benchmark sustained 45,000+ operations/second on a single modern CPU core with minimal overhead."
+      ]
+    },
+    {
+      "id": "authx",
+      "name": "AuthX",
+      "tagline": "High-Throughput Distributed Identity Service",
+      "description": "Zero-trust authentication and authorization microservice featuring asymmetric JWT signing, automated token rotation, fine-grained RBAC, and sliding-window rate limiting.",
+      "featured": false,
+      "category": "Backend Security",
+      "status": "Deployed",
+      "github": "https://github.com/tejasjagdale/authx",
+      "live": "https://authx-demo.vercel.app",
+      "problem": "Decentralized microservice architectures need rapid token verification without hitting the primary authentication database on every internal request.",
+      "solution": "Created an RS256 asymmetric public-key identity microservice with Redis token revocation blacklists and sliding window rate limiting.",
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "Redis", "Docker", "Cryptography"],
+      "implementation": [
+        "Public/private keypair rotation allowing downstream microservices to verify tokens locally with cached public keys.",
+        "Redis sorted set (ZSET) implementation of rolling sliding-window request throttling.",
+        "Password hashing using Argon2id with adaptive memory and parallelism costs."
+      ],
+      "challenges": [
+        "Ensuring instant global revocation of compromised refresh tokens across distributed microservices."
+      ],
+      "results": [
+        "Local token verification overhead under 0.8ms; handles 10,000+ authentication handshakes per minute."
+      ]
+    },
+    {
+      "id": "ai-market-agent",
+      "name": "MarketPulse AI",
+      "tagline": "Autonomous Financial Market Research Agent",
+      "description": "Multi-agent research and sentiment analysis engine that aggregates SEC filings, market news, and quantitative pricing signals to synthesize unbiased equity research dossiers.",
+      "featured": false,
+      "category": "AI Agents",
+      "status": "Completed",
+      "github": "https://github.com/tejasjagdale/marketpulse-ai",
+      "live": "https://marketpulse-demo.vercel.app",
+      "problem": "Analyzing unstructured market disclosures across hundreds of companies requires tedious manual collation prone to cognitive biases.",
+      "solution": "Employed a committee of specialized agents: Quantitative Analyst, Fundamental Reader, and Devil's Advocate Critic that debate evidence before compiling findings.",
+      "technologies": ["Python", "LangGraph", "FastAPI", "OpenAI SDK", "Docker"],
+      "implementation": [
+        "Multi-agent debate loop where the Critic agent challenges unverified bullish/bearish claims.",
+        "Dynamic tool calling to Yahoo Finance, SEC EDGAR APIs, and news vector indexes.",
+        "Structured Markdown synthesis with source citations and confidence scores."
+      ],
+      "challenges": [
+        "Preventing agents from getting trapped in endless debate cycles using token budget dampeners."
+      ],
+      "results": [
+        "Reduced equity disclosure research time from 4 hours to under 3 minutes per quarterly report."
+      ]
+    },
+    {
+      "id": "fastpik",
+      "name": "FastPik",
+      "tagline": "Asynchronous Distributed Media Processing Pipeline",
+      "description": "High-throughput asynchronous media ingestion service that processes image transforms, video transcoding, and automated thumbnail extraction using Celery and S3.",
+      "featured": false,
+      "category": "Backend Infrastructure",
+      "status": "Deployed",
+      "github": "https://github.com/tejasjagdale/fastpik",
+      "live": "https://github.com/tejasjagdale/fastpik",
+      "problem": "Heavy image and video transcoding blocks web server worker threads and leads to request timeouts.",
+      "solution": "Built an asynchronous presigned S3 upload architecture with decoupled Celery workers, Redis queues, and webhook completion notifications.",
+      "technologies": ["Python", "FastAPI", "Celery", "Redis", "AWS S3", "Docker"],
+      "implementation": [
+        "Direct-to-S3 client uploads via pre-signed URLs to bypass API server bandwidth bottlenecks.",
+        "Celery task priority queues dividing quick thumbnail generation from long-running transcode jobs.",
+        "Automatic retry logic with exponential backoff on transient AWS network failures."
+      ],
+      "challenges": [
+        "Handling sudden spikes of 100+ concurrent multi-megabyte media uploads without memory exhaustion."
+      ],
+      "results": [
+        "Zero API server worker thread blockage; processed 500GB+ of media files with 100% completion rate."
+      ]
+    },
+    {
+      "id": "url-shortener",
+      "name": "HexaLink",
+      "tagline": "Distributed High-Availability URL Service",
+      "description": "Ultra-low latency URL redirection system using Base62 encoding, Redis Bloom filters for rapid existence checks, and PostgreSQL read replicas.",
+      "featured": false,
+      "category": "Systems Design",
+      "status": "Deployed",
+      "github": "https://github.com/tejasjagdale/hexalink",
+      "live": "https://github.com/tejasjagdale/hexalink",
+      "problem": "High-volume URL redirection services must respond in single-digit milliseconds and handle cache misses without saturating database connections.",
+      "solution": "Integrated Redis Bloom filters to detect non-existent short keys in <1ms before touching cache or disk, paired with LRU hot-key caching.",
+      "technologies": ["Python", "FastAPI", "Redis", "PostgreSQL", "Docker", "Prometheus"],
+      "implementation": [
+        "Distributed ID generator using Snowflake-inspired 64-bit integer scheme encoded to Base62.",
+        "Redis Bloom filter layer with 0.1% false positive probability to intercept malicious cache-miss probing.",
+        "Asynchronous click analytics buffering in Redis lists before batch ingestion to PostgreSQL."
+      ],
+      "challenges": [
+        "Eliminating cache stampedes on viral URLs using mutex lock leasing."
+      ],
+      "results": [
+        "Sub-12ms p99 redirect latency under 15,000 synthetic requests/second."
+      ]
+    }
+  ],
+
+  "aiWorkflow": {
+    "sectionTag": "04 // AGENT SYSTEM",
+    "heading": "I BUILD AI SYSTEMS THAT ACT.",
+    "subheading": "Deterministic execution graphs orchestrating autonomous reasoning, tool validation, and state persistence.",
+    "description": "Moving beyond naive chat interfaces into production-grade agentic architectures. In my systems, AI models don't just generate text; they formulate plans, interact with real APIs, query knowledge bases, validate outputs against strict schemas, and correct their own errors.",
+    "steps": [
+      {
+        "id": "user",
+        "index": "01",
+        "title": "USER INTENT",
+        "label": "USER",
+        "role": "Trigger & Goal Definition",
+        "state": "RECEIVE",
+        "desc": "Receives raw request from developer, API client, or operational trigger with context and constraints.",
+        "details": "Input is sanitized, tagged with session credentials, and parsed for required parameter boundaries before admission into the execution graph."
+      },
+      {
+        "id": "intent",
+        "index": "02",
+        "title": "INTENT EXTRACTION",
+        "label": "INTENT",
+        "role": "Semantic Decomposition",
+        "state": "ANALYZE",
+        "desc": "Extracts semantic entities, operation objectives, and environmental constraints using structured output schemas.",
+        "details": "Converts ambiguous natural language or alert payloads into strict Pydantic models containing actionable goal primitives."
+      },
+      {
+        "id": "planner",
+        "index": "03",
+        "title": "PLANNER ENGINE",
+        "label": "PLANNER",
+        "role": "State Graph Routing",
+        "state": "STRATEGIZE",
+        "desc": "Formulates a Directed Acyclic Graph (DAG) of sub-tasks, establishing dependencies and validation checkpoints.",
+        "details": "Leverages LangGraph state nodes to determine whether immediate tool invocation, knowledge retrieval, or multi-agent delegation is required."
+      },
+      {
+        "id": "research",
+        "index": "04",
+        "title": "KNOWLEDGE RETRIEVAL",
+        "label": "RESEARCH",
+        "role": "Hybrid Context Ingestion",
+        "state": "RETRIEVE",
+        "desc": "Queries vector stores, operational logs, and live system state to ground decisions with factual context.",
+        "details": "Executes hybrid BM25 + dense embedding lookups across ChromaDB/Pinecone to supply relevant documentation without context window bloat."
+      },
+      {
+        "id": "tools",
+        "index": "05",
+        "title": "TOOL EXECUTION",
+        "label": "TOOLS",
+        "role": "Sandboxed API Actions",
+        "state": "EXECUTE",
+        "desc": "Executes concrete functions: database queries, HTTP requests, shell commands, or service restarts.",
+        "details": "Tools run inside isolated execution environments with strict permission scopes, timeout limits, and failure fallback handlers."
+      },
+      {
+        "id": "memory",
+        "index": "06",
+        "title": "STATE & MEMORY",
+        "label": "MEMORY",
+        "role": "Session Checkpointing",
+        "state": "PERSIST",
+        "desc": "Stores intermediate execution state, agent scratchpads, and execution history into Redis and PostgreSQL.",
+        "details": "Enables pause-and-resume workflows, human-in-the-loop approvals, and complete state rollbacks in case of unexpected failure."
+      },
+      {
+        "id": "validation",
+        "index": "07",
+        "title": "OUTPUT VALIDATION",
+        "label": "VALIDATION",
+        "role": "Schema & Safety Gate",
+        "state": "VERIFY",
+        "desc": "Rigorous verification against expected Pydantic models, safety policies, and unit assertions.",
+        "details": "If validation fails, the error feedback is injected directly back into the Planner node for autonomous self-correction cycles."
+      },
+      {
+        "id": "result",
+        "index": "08",
+        "title": "PRODUCTION RESULT",
+        "label": "RESULT",
+        "role": "Verified Delivery",
+        "state": "DISPATCH",
+        "desc": "Delivers deterministic, structured response payload to the caller with full execution trace and audit logs.",
+        "details": "Emits telemetry metrics to monitoring dashboards and commits the completed incident or response transaction."
+      }
+    ]
+  },
+
+  "backendArchitecture": {
+    "sectionTag": "05 // SYSTEM INTERNALS",
+    "heading": "BEHIND THE API",
+    "subheading": "Anatomy of an enterprise-grade, high-throughput asynchronous backend stack.",
+    "description": "How client requests flow through layers of defense, caching, asynchronous compute, and persistent storage in production architectures I design.",
+    "components": [
+      {
+        "id": "client",
+        "name": "Client Layer",
+        "subtitle": "Web / Mobile / Internal Services",
+        "tech": "HTTP/2, WebSockets, gRPC",
+        "description": "Incoming requests initiated by user interfaces, mobile applications, or upstream microservices requiring low-latency responses.",
+        "responsibilities": [
+          "Secure HTTPS/TLS handshake",
+          "Payload compression (Gzip/Brotli)",
+          "Connection reuse & keep-alive",
+          "Client-side request telemetry"
+        ]
+      },
+      {
+        "id": "nginx",
+        "name": "Nginx Reverse Proxy",
+        "subtitle": "Ingress & Edge Defense",
+        "tech": "Nginx, Let's Encrypt, Cloudflare",
+        "description": "Frontline ingress controller handling SSL termination, initial rate-limiting bursts, and load balancing across application worker instances.",
+        "responsibilities": [
+          "SSL / TLS termination at wire speed",
+          "IP-based and token-based rate limiting",
+          "Static asset caching and gzip compression",
+          "Reverse proxy load distribution to backend upstream pools"
+        ]
+      },
+      {
+        "id": "fastapi",
+        "name": "FastAPI App Server",
+        "subtitle": "Asynchronous Core Service",
+        "tech": "Python 3.12, Uvicorn, Pydantic v2",
+        "description": "High-performance non-blocking API server processing business logic, request schema validation, dependency injection, and security tokens.",
+        "responsibilities": [
+          "Strict Pydantic request & response validation",
+          "Non-blocking asynchronous I/O with asyncio",
+          "JWT cryptographic verification & RBAC enforcement",
+          "Structured JSON logging & Prometheus metric exposition"
+        ]
+      },
+      {
+        "id": "redis",
+        "name": "Redis Distributed Cache",
+        "subtitle": "In-Memory Sub-Millisecond Layer",
+        "tech": "Redis 7.x, Redis Sentinel",
+        "description": "Ultra-fast in-memory data store providing multi-tier caching, user session state, distributed synchronization locks, and rate limit tracking.",
+        "responsibilities": [
+          "Sub-millisecond query result caching",
+          "Distributed Redlock synchronization primitives",
+          "Sliding-window request rate counters",
+          "Pub/Sub messaging and Celery broker queues"
+        ]
+      },
+      {
+        "id": "postgres",
+        "name": "PostgreSQL Database",
+        "subtitle": "Persistent Relational Engine",
+        "tech": "PostgreSQL 16, SQLAlchemy, Alembic",
+        "description": "ACID-compliant primary data store managing normalized business data, transaction integrity, complex query plans, and automated backups.",
+        "responsibilities": [
+          "Strict ACID transactional guarantees",
+          "Optimized composite B-tree & GIN vector indexes",
+          "Asynchronous connection pooling (asyncpg / SQLAlchemy)",
+          "Zero-downtime database schema migrations with Alembic"
+        ]
+      },
+      {
+        "id": "celery",
+        "name": "Background Workers",
+        "subtitle": "Asynchronous Task Processing",
+        "tech": "Celery, Redis, Python Workers",
+        "description": "Decoupled asynchronous worker fleet running off-peak batch computations, media processing, report generation, and third-party webhooks.",
+        "responsibilities": [
+          "Offloading non-blocking workloads from API thread pool",
+          "Automated exponential backoff retries on transient errors",
+          "Dead-letter queues for unrecoverable failed payloads",
+          "Scheduled cron tasks and health check sweeps"
+        ]
+      },
+      {
+        "id": "external",
+        "name": "External APIs & LLMs",
+        "subtitle": "Third-Party Services & AI Providers",
+        "tech": "OpenAI, Stripe, Sendgrid, Vector DBs",
+        "description": "Downstream integrations with external SaaS APIs, LLM inference endpoints, and vector search engines protected by circuit breakers.",
+        "responsibilities": [
+          "Resilient HTTP client sessions with connection pooling",
+          "Circuit breaker patterns to prevent cascading failures",
+          "Streaming LLM token consumption",
+          "Webhook verification and idempotent ingestion"
+        ]
+      },
+      {
+        "id": "aws",
+        "name": "AWS Cloud Infrastructure",
+        "subtitle": "Production Hosting & Observability",
+        "tech": "ECS, EC2, S3, RDS, CloudWatch",
+        "description": "Resilient, highly available cloud environment ensuring fault tolerance, auto-scaling, asset storage, and continuous infrastructure telemetry.",
+        "responsibilities": [
+          "Containerized orchestration on ECS / Docker",
+          "Persistent durable object storage on S3",
+          "Multi-AZ failover and managed snapshots on RDS",
+          "Centralized log ingestion and metric alarms via CloudWatch"
+        ]
+      }
+    ]
+  },
+
+  "githubActivity": {
+    "sectionTag": "06 // OPEN SOURCE & COMMITS",
+    "heading": "BUILDING IN PUBLIC",
+    "subheading": "Continuous engineering output, system experiments, and code craft.",
+    "stats": [
+      { "label": "Public Repositories", "value": "18+" },
+      { "label": "Commits in 2024", "value": "1,420+" },
+      { "label": "Production Pull Requests", "value": "260+" },
+      { "label": "Open Source Contributions", "value": "35+" }
+    ],
+    "languages": [
+      { "name": "Python", "share": "68%", "color": "#38bdf8" },
+      { "name": "TypeScript / React", "share": "16%", "color": "#00f0ff" },
+      { "name": "SQL & DB Internals", "share": "10%", "color": "#a78bfa" },
+      { "name": "Docker & Bash", "share": "6%", "color": "#fbbf24" }
+    ],
+    "recentHighlights": [
+      {
+        "repo": "tejasjagdale/inframind",
+        "message": "feat(langgraph): add cyclic reflection loops for self-healing diagnostics",
+        "time": "2 days ago",
+        "branch": "main",
+        "tech": "LangGraph"
+      },
+      {
+        "repo": "tejasjagdale/rednet",
+        "message": "perf(parser): zero-copy byte parsing for high-throughput RESP messages",
+        "time": "5 days ago",
+        "branch": "feat/zero-copy",
+        "tech": "Python"
+      },
+      {
+        "repo": "tejasjagdale/vectorflow-rag",
+        "message": "refactor(search): implement reciprocal rank fusion with BGE re-ranker",
+        "time": "1 week ago",
+        "branch": "main",
+        "tech": "ChromaDB"
+      },
+      {
+        "repo": "tejasjagdale/authx",
+        "message": "security(jwt): add RS256 public key rotation endpoint and redis revocation check",
+        "time": "2 weeks ago",
+        "branch": "main",
+        "tech": "FastAPI"
+      }
+    ]
+  },
+
+  "currentlyBuilding": {
+    "sectionTag": "07 // RESEARCH & DEVELOPMENT",
+    "heading": "CURRENTLY BUILDING",
+    "subheading": "Areas of active experimentation, systems architecture, and deep technical focus.",
+    "items": [
+      {
+        "title": "Autonomous Multi-Agent Orchestration",
+        "focus": "LangGraph & Cyclic State Graphs",
+        "desc": "Designing stateful multi-agent systems where agents coordinate through structured memory graphs, self-correct errors, and execute verified operational interventions without human bottlenecking.",
+        "tag": "AI ENGINEERING",
+        "status": "ACTIVE RESEARCH",
+        "tech": ["LangGraph", "Python", "Tool-Calling"]
+      },
+      {
+        "title": "Sub-50ms RAG Latency Pipelines",
+        "focus": "Hybrid Search & Semantic Caching",
+        "desc": "Benchmarking embedding quantization, semantic result caching in Redis, and cross-encoder re-ranking pipelines to achieve sub-50ms query turnaround on large-scale enterprise technical docs.",
+        "tag": "PERFORMANCE",
+        "status": "BENCHMARKING",
+        "tech": ["ChromaDB", "Redis", "FastAPI"]
+      },
+      {
+        "title": "Distributed Event-Driven Architecture",
+        "focus": "Event Streams & Transactional Outbox",
+        "desc": "Implementing the Transactional Outbox pattern with PostgreSQL CDC (Change Data Capture) and Redis Streams to ensure zero message loss across asynchronous microservice boundaries.",
+        "tag": "SYSTEM DESIGN",
+        "status": "PROTOTYPING",
+        "tech": ["PostgreSQL", "Redis Streams", "Docker"]
+      },
+      {
+        "title": "Cloud Infrastructure as Code",
+        "focus": "Reproducible Production Stacks",
+        "desc": "Hardening multi-stage Docker builds, automated GitHub Actions release gates, and container telemetry on AWS ECS with zero-downtime rolling updates.",
+        "tag": "DEVOPS",
+        "status": "PRODUCTION TESTING",
+        "tech": ["Docker", "AWS ECS", "CI/CD"]
+      }
+    ]
+  },
+
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "institution": "Savitribai Phule Pune University (SPPU)",
+      "location": "Pune, India",
+      "period": "2020 — 2024",
+      "details": "Specialized in Distributed Systems, Database Management Systems, Computer Networks, and Artificial Intelligence algorithms.",
+      "coursework": [
+        "Distributed Systems & Cloud Computing",
+        "Database Management Systems & Query Optimization",
+        "Operating Systems & Multithreading",
+        "Data Structures & Advanced Algorithms",
+        "Computer Network Protocols (TCP/IP, HTTP, DNS)"
+      ]
+    }
+  ],
+
+  "socials": [
+    { "name": "GitHub", "url": "https://github.com/tejasjagdale", "handle": "@tejasjagdale" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/tejasjagdale", "handle": "tejasjagdale" },
+    { "name": "Twitter / X", "url": "https://twitter.com/tejasjagdale", "handle": "@tejasjagdale" },
+    { "name": "Email", "url": "mailto:tejasjagdale.dev@gmail.com", "handle": "tejasjagdale.dev@gmail.com" }
+  ]
+}
