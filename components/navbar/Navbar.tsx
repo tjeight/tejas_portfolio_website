@@ -45,11 +45,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? "py-3 bg-slate-950/80 backdrop-blur-md border-b border-cyan-500/20 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"
-            : "py-5 bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+          ? "py-3 bg-slate-950/80 backdrop-blur-md border-b border-cyan-500/20 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"
+          : "py-5 bg-transparent"
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
@@ -70,9 +69,6 @@ export default function Navbar() {
             <div className="hidden sm:flex flex-col">
               <span className="font-mono text-xs font-bold text-white tracking-wider flex items-center gap-1.5">
                 TEJAS JAGDALE
-                <span className="text-[10px] text-cyan-400 border border-cyan-500/30 px-1 rounded">
-                  v2.6
-                </span>
               </span>
               <span className="text-[10px] font-mono text-slate-400 tracking-widest uppercase">
                 AI / BACKEND OS
@@ -92,11 +88,10 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   data-cursor="GOTO"
-                  className={`relative px-3.5 py-1 text-xs font-mono tracking-wider uppercase transition-colors rounded-full ${
-                    isActive
-                      ? "text-cyan-300 font-semibold"
-                      : "text-slate-400 hover:text-white"
-                  }`}
+                  className={`relative px-3.5 py-1 text-xs font-mono tracking-wider uppercase transition-colors rounded-full ${isActive
+                    ? "text-cyan-300 font-semibold"
+                    : "text-slate-400 hover:text-white"
+                    }`}
                 >
                   {isActive && (
                     <motion.span
