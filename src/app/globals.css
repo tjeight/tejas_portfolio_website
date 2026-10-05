@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #fbfbf9;
+  --color-ivory-subtle: #f5f4ef;
+  --color-ivory-elevated: #eeede6;
+  --color-charcoal: #0c0c0e;
+  --color-charcoal-subtle: #141418;
+  --color-charcoal-card: #18181d;
+  --color-border-light: #e6e4df;
+  --color-border-dark: #222228;
+  --color-accent: #ff4d00;
+  --color-accent-hover: #ff621e;
+  --color-accent-subtle: rgba(255, 77, 0, 0.1);
+  --color-text-dark: #121215;
+  --color-text-muted-dark: #6e6d7a;
+  --color-text-light: #f5f5f7;
+  --color-text-muted-light: #94949f;
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --font-serif: var(--font-serif), "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+:root {
+  --background: #fbfbf9;
+  --foreground: #121215;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fbfbf9;
+  color: #121215;
+}
+
+body {
+  background-color: #fbfbf9;
+  color: #121215;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #ff4d00;
+  selection-color: #ffffff;
+}
+
+::selection {
+  background-color: #ff4d00;
+  color: #ffffff;
+}
+
+/* Custom editorial serif utility */
+.font-serif-italic {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f4ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d2cb;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4d00;
+}
+
+/* Subtle architectural grid lines for light sections */
+.editorial-grid {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+}
+
+/* Dark section grid */
+.technical-grid {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Paper / Editorial noise overlay */
+.grain-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E");
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* ==========================================================================
+   THEME TRANSITION SYSTEM & DARK THEME PALETTE
+   ========================================================================== */
+
+/* Smooth, calm transitions for theme changes */
+html,
+body,
+section,
+header,
+main,
+.editorial-grid,
+.bg-\[\#fbfbf9\],
+.bg-\[\#f5f4ef\],
+.bg-white,
+.border-\[\#e6e4df\] {
+  transition: background-color 220ms ease, border-color 220ms ease, color 220ms ease;
+}
+
+/* Base Dark Mode Root Elements */
+html.dark {
+  color-scheme: dark;
+  background-color: #0c0c0e !important;
+  color: #f5f5f7 !important;
+}
+
+html.dark body {
+  background-color: #0c0c0e !important;
+  color: #f5f5f7 !important;
+}
+
+/* Dark Theme Background Inversions */
+html.dark .bg-\[\#fbfbf9\] {
+  background-color: #0c0c0e !important;
+}
+
+html.dark .bg-\[\#fbfbf9\]\/85 {
+  background-color: rgba(12, 12, 14, 0.85) !important;
+}
+
+html.dark .bg-\[\#fbfbf9\]\/95 {
+  background-color: rgba(12, 12, 14, 0.95) !important;
+}
+
+html.dark .bg-\[\#f5f4ef\] {
+  background-color: #121216 !important;
+}
+
+html.dark .bg-\[\#faf9f5\] {
+  background-color: #16161b !important;
+}
+
+html.dark .hover\:bg-\[\#faf9f5\]:hover {
+  background-color: #16161b !important;
+}
+
+html.dark .bg-white {
+  background-color: #15151b !important;
+}
+
+html.dark .bg-white\/70,
+html.dark .bg-white\/80,
+html.dark .bg-white\/90,
+html.dark .bg-\[\#ffffff\]\/90 {
+  background-color: rgba(21, 21, 27, 0.9) !important;
+}
+
+html.dark .ring-\[\#fbfbf9\] {
+  --tw-ring-color: #0c0c0e !important;
+}
+
+html.dark .hover\:bg-black\/\[0\.04\]:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Dark Theme Typography Inversions */
+html.dark .text-\[\#121215\] {
+  color: #f5f5f7 !important;
+}
+
+html.dark .text-\[\#141416\] {
+  color: #f5f5f7 !important;
+}
+
+html.dark .text-\[\#121215\]\/90,
+html.dark .text-\[\#121215\]\/85,
+html.dark .text-\[\#121215\]\/80,
+html.dark .text-\[\#121215\]\/75,
+html.dark .text-\[\#121215\]\/70 {
+  color: rgba(245, 245, 247, 0.8) !important;
+}
+
+html.dark .text-\[\#121215\]\/65,
+html.dark .text-\[\#121215\]\/60,
+html.dark .text-\[\#121215\]\/50,
+html.dark .text-\[\#121215\]\/45 {
+  color: rgba(245, 245, 247, 0.55) !important;
+}
+
+html.dark .text-\[\#121215\]\/40,
+html.dark .text-\[\#121215\]\/35,
+html.dark .text-\[\#121215\]\/30,
+html.dark .text-\[\#121215\]\/20,
+html.dark .text-\[\#121215\]\/15 {
+  color: rgba(245, 245, 247, 0.35) !important;
+}
+
+html.dark .hover\:text-\[\#121215\]:hover {
+  color: #ffffff !important;
+}
+
+/* Dark Theme Border Inversions */
+html.dark .border-\[\#e6e4df\],
+html.dark .border-\[\#e4e2dc\],
+html.dark .border-\[\#eceae4\],
+html.dark .border-\[\#ebe8e1\],
+html.dark .border-\[\#d4d2cb\] {
+  border-color: #24242d !important;
+}
+
+html.dark .border-\[\#121215\] {
+  border-color: #353542 !important;
+}
+
+html.dark .border-\[\#121215\]\/15,
+html.dark .border-\[\#121215\]\/20 {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.dark .border-t-2.border-\[\#121215\] {
+  border-color: #f5f5f7 !important;
+}
+
+html.dark .border-l.border-\[\#121215\]\/20 {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+html.dark .divide-\[\#e6e4df\] > :not([hidden]) ~ :not([hidden]) {
+  border-color: #24242d !important;
+}
+
+html.dark .hover\:border-\[\#121215\]\/30:hover,
+html.dark .hover\:border-\[\#121215\]\/40:hover {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Dark Editorial Grid */
+html.dark .editorial-grid {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px) !important;
+}
+
+/* Dark Scrollbars */
+html.dark ::-webkit-scrollbar-track {
+  background: #101014 !important;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #2a2a34 !important;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #ff4d00 !important;
+}
+
+/* Dark Architectural SVG Visual Inversions */
+html.dark svg rect[fill="url(#arch-subtle-grid)"] {
+  fill: #121216 !important;
+}
+
+html.dark svg pattern#arch-subtle-grid path {
+  stroke: #22222b !important;
+}
+
+html.dark svg pattern#arch-subtle-grid circle {
+  fill: #2c2c38 !important;
+}
+
+html.dark svg line[stroke="#d8d6cf"],
+html.dark svg path[stroke="#d8d6cf"],
+html.dark svg circle[stroke="#d8d6cf"],
+html.dark svg polygon[stroke="#d8d6cf"],
+html.dark svg rect[stroke="#d8d6cf"] {
+  stroke: #2c2c38 !important;
+}
+
+html.dark svg text.fill-\[\#121215\] {
+  fill: #f5f5f7 !important;
+}
+
+html.dark svg text.fill-\[\#121215\]\/50,
+html.dark svg text.fill-\[\#121215\]\/70 {
+  fill: rgba(245, 245, 247, 0.55) !important;
+}
+
+html.dark svg circle[fill="#121215"],
+html.dark svg polygon[fill="#121215"],
+html.dark svg rect[fill="#121215"] {
+  fill: #f5f5f7 !important;
+}
+
+html.dark svg line[stroke="#121215"] {
+  stroke: #f5f5f7 !important;
+}
