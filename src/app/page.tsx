@@ -1,96 +1,71 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { TechnologyStrip } from "@/components/TechnologyStrip";
-import { SelectedProjects } from "@/components/SelectedProjects";
-import { SystemsThinking } from "@/components/SystemsThinking";
-import { BuiltWithIntent } from "@/components/BuiltWithIntent";
-import { AboutSection } from "@/components/AboutSection";
-import { PhilosophySection } from "@/components/PhilosophySection";
-import { EngineeringStack } from "@/components/EngineeringStack";
-import { ExperienceTimeline } from "@/components/ExperienceTimeline";
-import { ContactSection } from "@/components/ContactSection";
-import { Footer } from "@/components/Footer";
-import { CustomCursor } from "@/components/CustomCursor";
-import { SystemPulse } from "@/components/SystemPulse";
-import { TerminalDrawer } from "@/components/TerminalDrawer";
-import { playSubtleClick } from "@/components/SoundEffects";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { Hero } from "@/components/sections/Hero";
+import { About } from "@/components/sections/About";
+import { Skills } from "@/components/sections/Skills";
+import { Experience } from "@/components/sections/Experience";
+import { Projects } from "@/components/sections/Projects";
+import { Education } from "@/components/sections/Education";
+import { Contact } from "@/components/sections/Contact";
+import { ScrollEffects } from "@/components/animations/ScrollEffects";
+import {
+  about,
+  contact,
+  education,
+  experience,
+  footer,
+  hero,
+  nav,
+  projects,
+  sections,
+  site,
+  skills,
+  ui,
+} from "@/lib/data";
 
 export default function Home() {
-  const [terminalOpen, setTerminalOpen] = useState(false);
+  const knowsAbout = skills.categories.flatMap((category) => category.items);
 
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (target && ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName)) {
-        return;
-      }
-
-      if (e.key === "t" || e.key === "T" || e.key === "`") {
-        e.preventDefault();
-        playSubtleClick();
-        setTerminalOpen((prev) => !prev);
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: site.name,
+    url: site.website,
+    email: `mailto:${site.email}`,
+    jobTitle: site.title,
+    description: site.summary,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: site.location.city,
+      addressRegion: site.location.region,
+      addressCountry: site.location.country,
+    },
+    sameAs: site.socials.map((social) => social.url),
+    knowsAbout,
+    alumniOf: education.items.map((item) => ({
+      "@type": "EducationalOrganization",
+      name: item.institution,
+    })),
+  };
 
   return (
-    <div className="relative min-h-screen bg-[#fbfbf9] text-[#121215] selection:bg-[#ff4d00] selection:text-white grain-overlay">
-      {/* Signature System Pulse Spine & Top Progress */}
-      <SystemPulse />
-
-      {/* Desktop Follower Cursor */}
-      <CustomCursor />
-
-      {/* Minimal Sticky Navigation */}
-      <Navbar onOpenTerminal={() => setTerminalOpen(true)} />
-
-      {/* Main Page Flow strictly structured by visual priority */}
-      <main className="relative">
-        {/* 1. HERO: Asymmetric Editorial & Interactive 3D System Object */}
-        <Hero />
-
-        {/* 2. TECHNOLOGY STRIP: Clean Brand Ticker */}
-        <TechnologyStrip />
-
-        {/* 3. SELECTED PROJECTS: Hero of the Portfolio (~65-70% Viewport Visual Dominance) */}
-        <SelectedProjects />
-
-        {/* 4. ARCHITECTURE: Interactive Layer Inspector & Pipeline */}
-        <SystemsThinking />
-
-        {/* 5. BUILT WITH INTENT: Editorial Manifesto */}
-        <BuiltWithIntent />
-
-        {/* 6. ABOUT: Reduced Density + Complex -> Simple Transformation Visual */}
-        <AboutSection />
-
-        {/* 7. PHILOSOPHY: Build Simple / Think Deep / Ship Real (Monumental Typography) */}
-        <PhilosophySection />
-
-        {/* 8. STACK: Typographic Ecosystem (No Boxy Cards) */}
-        <EngineeringStack />
-
-        {/* 9. EXPERIENCE: Minimal Production Timeline */}
-        <ExperienceTimeline />
-
-        {/* 10. CONTACT: Closing Statement & Terminating Pulse */}
-        <ContactSection />
+    <>
+      <Header nav={nav} site={site} ui={ui} />
+      <main id="main">
+        <Hero hero={hero} site={site} />
+        <About about={about} section={sections.about} site={site} />
+        <Skills skills={skills} section={sections.skills} />
+        <Experience experience={experience} section={sections.experience} />
+        <Projects projects={projects} section={sections.projects} />
+        <Education education={education} section={sections.education} />
+        <Contact contact={contact} section={sections.contact} site={site} />
       </main>
-
-      {/* Footer */}
-      <Footer />
-
-      {/* Diagnostic Terminal Drawer (Triggered by Navbar or 'T') */}
-      <TerminalDrawer
-        isOpen={terminalOpen}
-        onClose={() => setTerminalOpen(false)}
+      <Footer footer={footer} nav={nav} site={site} />
+      <ScrollEffects />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-    </div>
+    </>
   );
 }

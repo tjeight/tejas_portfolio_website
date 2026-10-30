@@ -1,0 +1,647 @@
+{
+  "site": {
+    "name": "Tejas Jagdale",
+    "firstName": "Tejas",
+    "initials": "TJ",
+    "title": "AI Engineer",
+    "subtitle": "Backend Developer",
+    "summary": "Python Backend Developer and AI Engineer with 1+ year of experience building backend services and LLM-powered applications. Experienced in developing multi-agent workflows with LangChain and LangGraph, integrating LLM APIs and web-search tools, generating structured outputs with Pydantic, and managing workflow state with PostgreSQL. Hands-on project experience with RAG, embeddings, ChromaDB, and MMR retrieval. Strong backend foundation in FastAPI, PostgreSQL, Redis, authentication, AWS, and API performance. Focused on building observable, testable, and reliable AI applications.",
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "India",
+      "label": "Pune, Maharashtra, India",
+      "shortLabel": "Pune, IN"
+    },
+    "email": "thetejasjagdale@gmail.com",
+    "phone": "+91 9356139380",
+    "phoneHref": "+919356139380",
+    "website": "https://thetejasjagdale.in",
+    "socials": [
+      {
+        "id": "github",
+        "label": "GitHub",
+        "handle": "@tjeight",
+        "url": "https://github.com/tjeight",
+        "ariaLabel": "GitHub profile for Tejas Jagdale, @tjeight, opens in a new tab"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "handle": "developertejasjagdale",
+        "url": "https://linkedin.com/in/developertejasjagdale",
+        "ariaLabel": "LinkedIn profile for Tejas Jagdale, opens in a new tab"
+      }
+    ],
+    "seo": {
+      "title": "Tejas Jagdale — AI Engineer & Backend Developer",
+      "titleTemplate": "%s | Tejas Jagdale",
+      "description": "AI Engineer and Backend Developer in Pune, India. I build multi-agent LLM workflows, retrieval systems, and reliable FastAPI backends with LangGraph, PostgreSQL, Redis, and AWS.",
+      "keywords": [
+        "Tejas Jagdale",
+        "AI Engineer",
+        "Backend Developer",
+        "LangGraph",
+        "LangChain",
+        "FastAPI",
+        "Python",
+        "Multi-agent systems",
+        "RAG",
+        "Pune"
+      ],
+      "ogAlt": "Tejas Jagdale — AI Engineer and Backend Developer",
+      "locale": "en_IN"
+    }
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "menuTitle": "Navigation",
+    "externalLinkNewTab": "opens in a new tab",
+    "sectionLabel": "Section",
+    "backToTop": "Back to top",
+    "scrollToExplore": "Scroll to explore",
+    "loading": "Loading",
+    "copyEmail": "Copy email",
+    "copied": "Email copied",
+    "copyFailed": "Could not copy email"
+  },
+  "nav": {
+    "brand": {
+      "mark": "TJ",
+      "name": "Tejas Jagdale",
+      "role": "AI Engineer",
+      "homeLabel": "Home"
+    },
+    "links": [
+      {
+        "id": "about",
+        "label": "Profile",
+        "href": "#about",
+        "index": "01"
+      },
+      {
+        "id": "skills",
+        "label": "Capabilities",
+        "href": "#skills",
+        "index": "02"
+      },
+      {
+        "id": "experience",
+        "label": "Experience",
+        "href": "#experience",
+        "index": "03"
+      },
+      {
+        "id": "projects",
+        "label": "Work",
+        "href": "#projects",
+        "index": "04"
+      },
+      {
+        "id": "education",
+        "label": "Education",
+        "href": "#education",
+        "index": "05"
+      }
+    ],
+    "cta": {
+      "label": "Let’s talk",
+      "href": "#contact",
+      "ariaLabel": "Go to contact section"
+    },
+    "menuFooter": {
+      "label": "Elsewhere",
+      "locationLabel": "Based in"
+    }
+  },
+  "hero": {
+    "eyebrow": "AI Engineer · Backend Developer",
+    "status": "Building agentic systems from Pune, India",
+    "headline": [
+      {
+        "text": "AI systems,"
+      },
+      {
+        "text": "built for the"
+      },
+      {
+        "text": "real world.",
+        "emphasis": true
+      }
+    ],
+    "intro": "I design multi-agent workflows and the backend systems beneath them — turning LLM capability into software that is observable, testable, and reliable under pressure.",
+    "primaryCta": {
+      "label": "Explore selected work",
+      "href": "#projects"
+    },
+    "secondaryCta": {
+      "label": "More about me",
+      "href": "#about"
+    },
+    "metrics": [
+      {
+        "value": "1+",
+        "label": "Years building AI and backend systems"
+      },
+      {
+        "value": "9.7",
+        "suffix": "/10",
+        "label": "MCA CGPA"
+      },
+      {
+        "value": "<50ms",
+        "label": "Cache-backed responses on tested APIs"
+      }
+    ],
+    "portraitCaption": "Agent mesh / live",
+    "scene": {
+      "ariaLabel": "Interactive 3D visualization of a central orchestration core surrounded by orbiting nodes for planning, tools, memory, retrieval, policy, and tracing.",
+      "coreLabel": "Orchestrator",
+      "nodeLabels": [
+        {
+          "id": "planner",
+          "label": "Planner"
+        },
+        {
+          "id": "tools",
+          "label": "Tools"
+        },
+        {
+          "id": "memory",
+          "label": "Memory"
+        },
+        {
+          "id": "retrieval",
+          "label": "Retrieval"
+        },
+        {
+          "id": "policy",
+          "label": "Policy"
+        },
+        {
+          "id": "trace",
+          "label": "Trace"
+        }
+      ],
+      "hint": "Move to inspect",
+      "fallbackTitle": "Agent mesh",
+      "fallbackNote": "Live 3D is unavailable here. Showing a static system preview instead.",
+      "fallbackTag": "Static preview",
+      "loadingLabel": "Preparing 3D scene",
+      "engineLabel": "3D / WebGL"
+    }
+  },
+  "sections": {
+    "about": {
+      "index": "01",
+      "eyebrow": "Profile",
+      "heading": [
+        {
+          "text": "AI engineering with a"
+        },
+        {
+          "text": "backend spine.",
+          "emphasis": true
+        }
+      ],
+      "description": "The model is only one part of the system. I focus on the orchestration, state, guardrails, and API layer that make AI behaviour dependable."
+    },
+    "skills": {
+      "index": "02",
+      "eyebrow": "Capabilities",
+      "heading": [
+        {
+          "text": "A toolkit for"
+        },
+        {
+          "text": "production intelligence.",
+          "emphasis": true
+        }
+      ],
+      "description": "Organized by the problems they solve — from agent orchestration and retrieval to the backend primitives that keep services fast."
+    },
+    "experience": {
+      "index": "03",
+      "eyebrow": "Experience",
+      "heading": [
+        {
+          "text": "Building in"
+        },
+        {
+          "text": "the real stack.",
+          "emphasis": true
+        }
+      ],
+      "description": "One role, a wide surface area: agent workflows, API design, authentication, caching, storage, and the operational details that make AI features usable."
+    },
+    "projects": {
+      "index": "04",
+      "eyebrow": "Selected work",
+      "heading": [
+        {
+          "text": "Selected"
+        },
+        {
+          "text": "systems.",
+          "emphasis": true
+        }
+      ],
+      "description": "Two AI products where workflows, retrieval, safety policy, and backend reliability had to work as one coherent system."
+    },
+    "education": {
+      "index": "05",
+      "eyebrow": "Education",
+      "heading": [
+        {
+          "text": "A foundation in"
+        },
+        {
+          "text": "computer science.",
+          "emphasis": true
+        }
+      ],
+      "description": "Formal training in computer applications and computer science, with a consistent record of academic performance."
+    },
+    "contact": {
+      "index": "06",
+      "eyebrow": "Contact",
+      "heading": [
+        {
+          "text": "Have a hard AI problem?"
+        },
+        {
+          "text": "Let’s make it reliable.",
+          "emphasis": true
+        }
+      ],
+      "description": "I’m interested in conversations about agentic systems, backend architecture, and turning ambitious AI ideas into production software.",
+      "primaryCta": "Send an email",
+      "secondaryCta": "Connect on LinkedIn",
+      "availabilityLabel": "Based in",
+      "responseNote": "The fastest way to reach me is email."
+    }
+  },
+  "about": {
+    "lead": "I build the layer between model capability and dependable product behaviour.",
+    "body": [
+      "My work sits at the intersection of generative AI and backend engineering. At Andro Buddy Technologies, I developed multi-agent workflows with LangChain, LangGraph, and OpenAI/xAI APIs for dynamic question generation, web research, and report generation — then built the PostgreSQL-backed state, REST APIs, authentication, caching, and storage around them.",
+      "I care about the unglamorous parts that decide whether an AI feature survives contact with users: structured outputs instead of brittle parsing, tracing instead of guesswork, policy checks before actions, and measured API performance. Hands-on project work with RAG, embeddings, ChromaDB, and MMR retrieval rounds out that production focus."
+    ],
+    "principlesLabel": "How I work",
+    "principles": [
+      {
+        "number": "01",
+        "title": "Observable over opaque",
+        "description": "Workflows should explain what happened. Tracing, structured state, and explicit failure paths make LLM systems debuggable."
+      },
+      {
+        "number": "02",
+        "title": "Constraints before autonomy",
+        "description": "Agent freedom is useful only inside clear boundaries. Retries, validation, and policy gates belong in the architecture."
+      },
+      {
+        "number": "03",
+        "title": "Reliability is a feature",
+        "description": "Caching, indexing, auth, and sensible API contracts are not polish. They are what make intelligent software usable."
+      }
+    ],
+    "facts": [
+      {
+        "label": "Based in",
+        "value": "Pune, India"
+      },
+      {
+        "label": "Focus",
+        "value": "Agentic AI · Backend systems"
+      },
+      {
+        "label": "Education",
+        "value": "MCA, IMCC Pune"
+      },
+      {
+        "label": "Most recently",
+        "value": "Backend Developer at Andro Buddy"
+      }
+    ],
+    "focusLabel": "Current focus",
+    "focusItems": [
+      "Multi-agent workflow orchestration",
+      "Retrieval-augmented generation",
+      "Fast, observable backend APIs"
+    ]
+  },
+  "skills": {
+    "labels": {
+      "categoryLabel": "Capability group",
+      "countSingular": "tool",
+      "countPlural": "tools",
+      "activeLabel": "Selected capability group"
+    },
+    "categories": [
+      {
+        "id": "languages",
+        "number": "01",
+        "title": "Languages",
+        "description": "The languages I use to build services, workflows, and interfaces.",
+        "items": [
+          "Python",
+          "SQL",
+          "TypeScript"
+        ]
+      },
+      {
+        "id": "generative-ai",
+        "number": "02",
+        "title": "Generative AI & LLMs",
+        "description": "Agent orchestration, retrieval, structured generation, and the tooling around them.",
+        "items": [
+          "LangChain",
+          "LangGraph",
+          "OpenAI API",
+          "xAI API",
+          "LLM tool calling",
+          "Prompt engineering",
+          "Structured outputs",
+          "Multi-agent systems",
+          "Langfuse",
+          "Retrieval-Augmented Generation (RAG)",
+          "ChromaDB",
+          "Embeddings",
+          "Similarity search",
+          "Semantic retrieval"
+        ]
+      },
+      {
+        "id": "backend",
+        "number": "03",
+        "title": "Backend development",
+        "description": "Typed, asynchronous API services with clear contracts and workflow state.",
+        "items": [
+          "FastAPI",
+          "REST APIs",
+          "Pydantic",
+          "SQLAlchemy",
+          "Alembic",
+          "AsyncIO",
+          "WebSockets"
+        ]
+      },
+      {
+        "id": "data",
+        "number": "04",
+        "title": "Databases & caching",
+        "description": "Persistent state, caching layers, and document storage for AI applications.",
+        "items": [
+          "PostgreSQL",
+          "Redis",
+          "MongoDB",
+          "Supabase"
+        ]
+      },
+      {
+        "id": "cloud",
+        "number": "05",
+        "title": "Cloud & deployment",
+        "description": "Shipping and operating services on Linux infrastructure.",
+        "items": [
+          "AWS EC2",
+          "AWS S3",
+          "AWS RDS",
+          "Docker",
+          "Docker Compose",
+          "Nginx",
+          "Linux"
+        ]
+      },
+      {
+        "id": "tooling",
+        "number": "06",
+        "title": "Testing & developer tools",
+        "description": "The daily workflow around code review, API validation, and delivery.",
+        "items": [
+          "Git",
+          "GitHub Actions",
+          "Postman"
+        ]
+      },
+      {
+        "id": "backend-engineering",
+        "number": "07",
+        "title": "Backend engineering",
+        "description": "The systems thinking that keeps APIs fast, safe, and maintainable.",
+        "items": [
+          "Authentication",
+          "Role-based access control (RBAC)",
+          "Caching",
+          "Rate limiting",
+          "API versioning",
+          "Database indexing",
+          "Query optimization"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "id": "andro-buddy",
+        "role": "Backend Developer",
+        "company": "Andro Buddy Technologies Pvt. Ltd.",
+        "location": "Pune, Maharashtra",
+        "start": "Aug 2025",
+        "end": "Sep 2026",
+        "summary": "Built AI workflows and the backend services around them, spanning agent orchestration, API performance, authentication, and cloud storage.",
+        "highlights": [
+          "Developed multi-agent AI workflows using LangChain, LangGraph, and OpenAI/xAI APIs for dynamic question generation, web research, and report generation.",
+          "Integrated prompt templates, web-search tools, Pydantic structured outputs, and PostgreSQL-backed state management to support multi-step AI workflows.",
+          "Integrated Langfuse for LLM workflow tracing and monitoring.",
+          "Built and maintained REST APIs and backend services using FastAPI, PostgreSQL, Redis, and TypeScript.",
+          "Implemented Redis caching and rate limiting, achieving sub-50 ms response times on most tested APIs.",
+          "Worked on database indexing and query optimization.",
+          "Implemented authentication and authorization using JWT, JWE, and RBAC.",
+          "Integrated AWS S3 for application storage."
+        ],
+        "stack": [
+          "LangChain",
+          "LangGraph",
+          "OpenAI",
+          "xAI",
+          "FastAPI",
+          "PostgreSQL",
+          "Redis",
+          "TypeScript",
+          "Langfuse",
+          "AWS S3"
+        ]
+      }
+    ],
+    "labels": {
+      "roleLabel": "Role",
+      "responsibilitiesLabel": "Selected responsibilities",
+      "stackLabel": "Stack",
+      "locationLabel": "Location"
+    }
+  },
+  "projects": {
+    "labels": {
+      "viewRepository": "View repository",
+      "viewLive": "Visit live product",
+      "stackLabel": "Technology",
+      "notesLabel": "System notes",
+      "figureLabel": "System map",
+      "linkNote": "Opens in a new tab",
+      "projectLabel": "Project",
+      "topologyLabel": "Agent topology",
+      "pipelineLabel": "Traced pipeline",
+      "orchestrationLabel": "Orchestration",
+      "pipelineFooter": "Structured output / state / observability"
+    },
+    "items": [
+      {
+        "id": "fleetops-ai",
+        "number": "01",
+        "title": "FleetOps AI",
+        "subtitle": "Agentic Drone Incident Investigation Simulator",
+        "summary": "A full-stack investigation platform that combines simulated drone telemetry, mission logs, and SOP retrieval to produce evidence-grounded diagnoses and response recommendations.",
+        "description": "FleetOps AI treats an incident as a workflow with evidence requirements, not a single prompt. A LangGraph investigation path validates telemetry freshness, retrieves SOPs from ChromaDB, produces structured outputs, and falls back gracefully when model services fail. A deterministic Python policy gate sits between recommendation and simulated action, enforcing battery reserves, geofences, evidence, and role-based approval.",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "LangGraph",
+          "OpenAI",
+          "ChromaDB",
+          "PostgreSQL",
+          "SQLAlchemy",
+          "Next.js",
+          "TypeScript",
+          "Langfuse"
+        ],
+        "highlights": [
+          "Built a full-stack agentic incident-investigation platform combining simulated drone telemetry, mission logs, and SOP retrieval to generate structured, evidence-grounded diagnoses and response recommendations.",
+          "Implemented a LangGraph investigation workflow with telemetry-freshness validation, ChromaDB retrieval, structured LLM outputs, and graceful fallback when model services fail.",
+          "Developed a deterministic Python safety-policy gate enforcing battery reserves, telemetry freshness, geofence constraints, evidence requirements, and role-based approval before simulated actions.",
+          "Implemented human-in-the-loop approvals, pre-execution policy revalidation, idempotent incident ingestion, and persistent audit trails using FastAPI and SQLAlchemy.",
+          "Designed nine fault and safety scenarios covering duplicate events, missing or conflicting SOPs, tool timeouts, unauthorized approvals, and geofence violations."
+        ],
+        "links": [
+          {
+            "id": "github",
+            "label": "View repository",
+            "url": "https://github.com/tjeight/fleetops-ai",
+            "ariaLabel": "View repository: FleetOps AI on GitHub, opens in a new tab"
+          }
+        ],
+        "visual": {
+          "kind": "network",
+          "figure": "Fig. 01",
+          "center": "LangGraph",
+          "caption": "Investigation workflow with deterministic policy enforcement before every simulated action.",
+          "labels": [
+            "Telemetry",
+            "SOP retrieval",
+            "Diagnosis",
+            "Policy gate",
+            "Approval",
+            "Audit"
+          ]
+        }
+      },
+      {
+        "id": "starts-club",
+        "number": "02",
+        "title": "Starts Club",
+        "subtitle": "AI-Powered Startup Validation Platform",
+        "summary": "The backend for an AI-powered startup validation platform, where a multi-agent workflow generates questions, researches the market, and produces a structured business report.",
+        "description": "Starts Club coordinates several agents instead of asking one model to do everything. The workflow uses LangChain and LangGraph with OpenAI and xAI APIs, web-search tools, prompt templates, Pydantic structured outputs, and PostgreSQL-backed state. Langfuse provides tracing across the multi-step run. I worked with frontend and product teams to fold the workflow into the live platform.",
+        "stack": [
+          "FastAPI",
+          "PostgreSQL",
+          "LangChain",
+          "LangGraph",
+          "OpenAI",
+          "xAI",
+          "Langfuse"
+        ],
+        "highlights": [
+          "Built the backend for an AI-powered startup validation platform using FastAPI and PostgreSQL.",
+          "Developed a multi-agent workflow for dynamic question generation, web research, and business report generation.",
+          "Implemented agent workflows using LangChain and LangGraph with OpenAI/xAI APIs, web-search tools, Pydantic structured outputs, prompt templates, and PostgreSQL-backed state management.",
+          "Integrated Langfuse for LLM workflow tracing and monitoring.",
+          "Collaborated with frontend and product teams to integrate the AI workflow into the platform."
+        ],
+        "links": [
+          {
+            "id": "website",
+            "label": "Visit live product",
+            "url": "https://startsclub.com",
+            "ariaLabel": "Visit live product: Starts Club, opens in a new tab"
+          }
+        ],
+        "visual": {
+          "kind": "pipeline",
+          "figure": "Fig. 02",
+          "center": "LangGraph",
+          "caption": "A traced multi-agent pipeline from question generation to a structured, research-backed report.",
+          "labels": [
+            "Questions",
+            "Web research",
+            "Agent graph",
+            "Report",
+            "Langfuse"
+          ]
+        }
+      }
+    ]
+  },
+  "education": {
+    "labels": {
+      "cgpaLabel": "CGPA",
+      "institutionLabel": "Institution",
+      "periodLabel": "Period",
+      "countLabel": "qualifications"
+    },
+    "items": [
+      {
+        "id": "mca",
+        "degree": "Master of Computer Applications",
+        "shortDegree": "MCA",
+        "institution": "IMCC, Pune, India",
+        "start": "2024",
+        "end": "2026",
+        "cgpa": "9.7/10",
+        "location": "Pune, India"
+      },
+      {
+        "id": "bcs",
+        "degree": "Bachelor of Computer Science",
+        "shortDegree": "BCS",
+        "institution": "Shri Saibaba Senior College, Shirdi, India",
+        "start": "2021",
+        "end": "2024",
+        "cgpa": "9.86/10",
+        "location": "Shirdi, India"
+      }
+    ]
+  },
+  "contact": {
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "socialLabel": "Elsewhere",
+    "copyLabel": "Copy email address",
+    "copiedLabel": "Email address copied",
+    "copyErrorLabel": "Unable to copy email address"
+  },
+  "footer": {
+    "tagline": "AI systems, backend foundations, and the details that make them dependable.",
+    "sectionsLabel": "Sections",
+    "connectLabel": "Connect",
+    "contactLabel": "Contact",
+    "copyright": "© 2026 Tejas Jagdale. All rights reserved.",
+    "colophon": "Designed and built with Next.js, React Three Fiber, GSAP, and Motion.",
+    "backToTopLabel": "Back to top",
+    "locationNote": "Pune, Maharashtra, India"
+  }
+}
